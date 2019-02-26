@@ -1,0 +1,144 @@
+body
+{
+    background-color: aliceblue;
+    font-family: sans-serif;
+    color: darkslategray;
+}
+
+#bloc-page
+{
+    width: 100%; 
+    margin: auto;
+}
+
+h1
+{
+  font-size: 7.5vw;
+  text-align:center;
+}
+
+h2
+{
+  font-size: 3vw;
+}
+
+a
+{
+    text-decoration: none;
+    color: lightgrey;
+    font-weight: bold;
+}
+
+ul
+{
+    line-height: 4;
+    text-align: left;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+}
+
+footer
+{
+    background-color: darkslateblue;
+    color: lightgrey;
+    padding: 30px;
+    margin: auto; 
+    display: flex;
+    flex-direction: row;
+    line-height: 0.5;
+    
+}
+
+#first
+{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+#second
+{
+    display: block; 
+}
+
+#third
+{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+#sect1
+{
+    display: flex;
+    justify-content: space-around
+}
+
+.element-nav
+{
+    flex: auto;
+    text-align: center;
+    font-size: 2.5vw;
+    padding: 4px; 
+    margin: 2vw;
+    border: 2px grey solid; 
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+.element-footer
+{
+    flex: auto;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+article
+{
+    flex: 2;
+    padding: 1px; 
+    margin: 1vw;
+    border: 1px midnightblue solid; 
+    background-color: lightgrey;
+    color: dimgraygrey;
+}
+
+aside
+{
+    flex: 1;
+    padding: 0 15px 15px 15px;
+    margin: 1vw;
+    border: 4px lightgrey solid; 
+    background-color: midnightblue;
+    color: lightgrey;
+    text-align: center;
+    border-radius: 10px 5px 10px 5px;
+    
+}
+
+#pic1
+{
+    display: block;
+    width: 15%; 
+}
+
+#pic2, #pic3
+{
+    vertical-align: middle;
+    width: 15%;
+}
+
+#pic-G
+{
+    width: 30%;  
+}
+
+.titre1
+{
+    text-align: center;
+}
